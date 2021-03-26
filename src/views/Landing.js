@@ -49,7 +49,7 @@ export default function Landing() {
               y="0"
             >
               <polygon
-                className="text-gray-300 fill-current"
+       
                 points="2560 0 2560 100 0 100"
               ></polygon>
             </svg>
@@ -173,8 +173,8 @@ export default function Landing() {
           </div>
         </section>  */}
 
-        <section className="relative py-20">
-          <div
+        <section className="relative py-20 bg-black text-white">
+          {/* <div
             className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
             style={{ height: "80px" }}
           >
@@ -192,7 +192,7 @@ export default function Landing() {
                 points="2560 0 2560 100 0 100"
               ></polygon>
             </svg>
-          </div>
+          </div> */}
 
           <div className="container mx-auto px-4">
             <div className="items-center flex flex-wrap">
@@ -200,14 +200,14 @@ export default function Landing() {
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
-                  src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+                  src="https://images.unsplash.com/photo-1610554843876-9be9b896b2d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=334&q=80"
                 />
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
                 <div className="md:pr-12">
-                  <div className="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300">
-                    <i className="fas fa-rocket text-xl"></i>
-                  </div>
+                  {/* <div className="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300">
+                    <i className="fas fa-gym text-xl"></i>
+                  </div> */}
                   <h3 className="text-3xl font-semibold">
                     A growing company
                   </h3>
@@ -263,7 +263,7 @@ export default function Landing() {
         </section>
 
 
-        <section className="pt-20 pb-48">
+        <section className="pt-20 pb-48 bg-black text-white">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
@@ -279,13 +279,13 @@ export default function Landing() {
             </div>
             <div className="flex flex-wrap">
              
-              <div className="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
+              <div className="w-full md:w-4/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
                 <div className="px-6">
                   <img
                     alt="..."
                     src={require("assets/img/chhattisgarh-hc.jpg").default}
-                    className="shadow-lg rounded-full max-w-full mx-auto"
-                    style={{ maxWidth: "120px" }}
+                    className="shadow-lg rounded max-w-full mx-auto"
+                    style={{ maxWidth: "240px" }}
                   />
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">
@@ -311,13 +311,13 @@ export default function Landing() {
                   </div>
                 </div>
               </div>
-              <div className="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
+              <div className="w-full md:w-4/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
                 <div className="px-6">
                   <img
                     alt="..."
                     src={require("assets/img/bin.aspx.jpg").default}
-                    className="shadow-lg rounded-full max-w-full mx-auto"
-                    style={{ maxWidth: "120px" }}
+                    className="shadow-lg rounded max-w-full mx-auto"
+                    style={{ maxWidth: "240px" }}
                   />
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">
@@ -349,13 +349,13 @@ export default function Landing() {
                   </div>
                 </div>
               </div>
-              <div className="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
+              <div className="w-full md:w-4/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
                 <div className="px-6">
                   <img
                     alt="..."
                     src={require("assets/img/index.jpg").default}
-                    className="shadow-lg rounded-full max-w-full mx-auto"
-                    style={{ maxWidth: "120px" }}
+                    className="shadow-lg rounded max-w-full mx-auto"
+                    style={{ maxWidth: "240px" }}
                   />
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">
@@ -397,7 +397,7 @@ export default function Landing() {
           </div>
         </section>
 
-        <section className="pb-20 relative block bg-gray-900">
+        <section className="pb-20 relative block bg-black text-white">
           <div
             className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
             style={{ height: "80px" }}
@@ -412,7 +412,7 @@ export default function Landing() {
               y="0"
             >
               <polygon
-                className="text-gray-900 fill-current"
+               
                 points="2560 0 2560 100 0 100"
               ></polygon>
             </svg>
@@ -430,7 +430,7 @@ export default function Landing() {
                 </p>
               </div>
             </div>
-            <div className="flex flex-wrap mt-12 justify-center">
+            {/* <div className="flex flex-wrap mt-12 justify-center">
               <div className="w-full lg:w-3/12 px-4 text-center">
                 <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
                   <i className="fas fa-medal text-xl"></i>
@@ -466,11 +466,11 @@ export default function Landing() {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-              </div>
-            </div>
+              </div> */}
+            {/* </div> */}
           </div>
         </section>
-        <section className="relative block py-24 lg:pt-0 bg-gray-900">
+        <section className="relative block py-24 lg:pt-0 bg-black text-white">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center lg:-mt-64 -mt-48">
               <div className="w-full lg:w-6/12 px-4">
